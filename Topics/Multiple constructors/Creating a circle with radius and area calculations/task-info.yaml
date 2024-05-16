@@ -1,0 +1,21 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.Scanner;\n\n// Define the Circle class here\nclass Circle\
+    \ {\n    // Declare the properties of the Circle class here\n\n\n    /* Define\
+    \ the default and parameterized constructors here. The constructors should initialize\
+    \ the \n       'radius' property with the given or default value and 'area' property\
+    \ with the value calculated as πr^2 \n        rounded off to the nearest whole\
+    \ number. */\n\n\n    // Getters for the 'radius' and 'area' properties\n    public\
+    \ int getRadius() {\n        // Your code here\n    }\n\n    public int getArea()\
+    \ {\n        // Your code here\n    }\n}\n\npublic class Main {\n    public static\
+    \ void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\
+    \        int n = scanner.nextInt();\n\n        // create a Circle object using\
+    \ 'n' if its positive else use the default constructor\n\n        // print the\
+    \ circle's radius and area\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/44061#comment
+status: Solved
+record: -1
+submission_language: java17
